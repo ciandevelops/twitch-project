@@ -1,6 +1,6 @@
 import React from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaGoogle } from "react-icons/fa";
 import Image from "next/image";
 
 const account = () => {
@@ -44,7 +44,7 @@ const account = () => {
         className="flex items-center justify-center p-3 bg-blue-600 border border-gray-600 my-2"
         onClick={() => signIn()}
       >
-        <FaGithub className="mr-2" />
+        <FaGoogle className="mr-2" />
         Sign in with <span className="font-bold pl-1">Google</span>
       </button>
     </div>
