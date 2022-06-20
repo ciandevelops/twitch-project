@@ -5,12 +5,12 @@ import Image from "next/image";
 
 const account = () => {
   const { data: session } = useSession();
-  console.log(session);
+
   if (session) {
     return (
       <div className="pt-[100px] flex flex-col max-w-[400px] w-full mx-auto p-4">
         <h2 className="text-2xl font-bold">Welcome, {session.user.name}</h2>
-        <p clasName="py-4">You are signed in as {session.user.email}</p>
+        <p className="py-4">You are signed in as {session.user.email}</p>
         <div className="pb-4 m-auto">
           <Image
             className="rounded-full"
