@@ -40,6 +40,13 @@ const account = () => {
         <FaGithub className="mr-2" />
         Sign in with <span className="font-bold pl-1">Github</span>
       </button>
+      <button
+        className="flex items-center justify-center p-3 bg-blue-600 border border-gray-600 my-2"
+        onClick={() => signIn()}
+      >
+        <FaGithub className="mr-2" />
+        Sign in with <span className="font-bold pl-1">Google</span>
+      </button>
     </div>
   );
 };
