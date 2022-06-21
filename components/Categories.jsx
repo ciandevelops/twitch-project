@@ -3,7 +3,7 @@ import CategoriesItem from "./CategoriesItem";
 
 const Categories = () => {
   return (
-    <div id="live" className="p-2 md:p-8">
+    <div id="categories" className="p-2 md:p-8">
       <h2 className="text-xl font-bold px-2">
         <span className="text-[#9147FF]">Categories </span>We Think You'll Like
       </h2>
